@@ -60,7 +60,7 @@ a:hover{
 /* first page css  */
 
 .first-img img {
-	width: 437px;
+	width: 237px;
 }
 
 .header-row {
@@ -70,7 +70,7 @@ a:hover{
 	gap: 30px;
 }
 .text-box h2 {
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 700;
 	color: #A92170;
 }
@@ -84,13 +84,13 @@ a:hover{
 }
 
 .report h2 { 
-	font-size: 70px;
+	font-size: 50px;
 	display: flex;
 	flex-direction: column;
 	color: #0A4D55;
-	margin: 50px 0;
+	margin: 100px 0;
 	border-bottom: 2px solid #A92170;
-  padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .report span {
 	color: #A92170; 
@@ -161,6 +161,7 @@ a:hover{
   color: #A92170;
 }
 
+
 /* l4 style css  */
 
 .l2-title p {
@@ -182,6 +183,7 @@ a:hover{
 	text-align: center;
 	background: #ddd;
 }
+ 
 
 .l4-table tbody tr td {
 	border: 1px dotted #000;
@@ -191,7 +193,6 @@ a:hover{
 .main-l4{
   margin-bottom: 45px;
 }
-
 
 /* l5 style css  */
 
@@ -222,12 +223,12 @@ a:hover{
 /* l6 syle css  */
 
 .l6-content{
-  margin-top:25px;
-}
-
-.l6-content-last h2 {
-	font-size: 31px; 
-	font-weight: 700;
-  color: #A92170; 
-	margin: 35px 0 10px 0;
-}
+    margin-top:25px;
+  }
+  
+  .l6-content-last h2 {
+      font-size: 31px; 
+      font-weight: 700;
+    color: #A92170; 
+      margin: 35px 0 10px 0;
+  }
