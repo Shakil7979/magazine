@@ -244,7 +244,9 @@ a:hover{
 	font-size: 40px; 
 	margin-top: 30px;
 }
-
+.l7-content svg {
+	width: 100%;
+}
 /* l8 style css  */
 
 .l8-title {
