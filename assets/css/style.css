@@ -231,3 +231,60 @@ a:hover{
   color: #A92170; 
 	margin: 35px 0 10px 0;
 }
+
+
+
+/* l7 style css  */
+
+.l7-content img {
+	width: 100%;
+}
+
+.l7-title h2 {
+	font-size: 40px; 
+	margin-top: 30px;
+}
+
+/* l8 style css  */
+
+.l8-title {
+	text-align: right;
+}
+
+.l8-title h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #A92170; 
+}
+
+.l8-title h3 {
+	font-size: 22px;
+	position: relative;
+	margin-top: 37px;
+	color: #063740;
+}
+
+.l8-title h3:after{
+	content: "";
+	position: absolute;
+	width: 45px;
+	height: 3px;
+	right: 0;
+	background: #063740;
+	top: -20px;
+}
+
+.l8-content {
+	display: flex;
+	gap: 56px;
+	margin: 24px 0px;
+}
+
+.l8-content p {
+	flex: 0 0 48%;
+}
+
+.l8-map img {
+	width: 100%;
+	height: 484px;
+}
