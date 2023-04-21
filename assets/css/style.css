@@ -293,7 +293,16 @@ a:hover{
 
 /* l9 style css  */
 
-.card .percent {
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
+	border: none;
+}
+  
+  .card .percent {
 	position: relative;
   }
   
@@ -316,7 +325,7 @@ a:hover{
   .card svg circle:last-of-type {
 	stroke-dasharray: 625px;
 	stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
-	stroke: #3498db; 
+	stroke: #0A4D55; 
   }
   
   .card .number {
@@ -340,13 +349,21 @@ a:hover{
   }
   
   .card:nth-child(1) svg circle:last-of-type {
-	stroke: #f39c12;
+	stroke: #50535C;
   }
   
   .card:nth-child(2) svg circle:last-of-type {
-	stroke: #2ecc71;
+	stroke: #A92170;
   }
-
+  .l9-progress-bar {
+	display: flex;
+	justify-content: space-between;
+}
+.progress-title H2 {
+	font-size: 40px;
+	margin: 70px 0 34px 0;
+	font-weight: 700;
+}
 /* l10 style css  */
 
 .bars-l10 h2 {
@@ -378,6 +395,7 @@ a:hover{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 50px;
 }
 
 .l10-left{ 
@@ -387,7 +405,7 @@ a:hover{
 	margin: 25px 0;
 }
 .l10-right {
-	flex:  0 0 69%;
+	flex: 0 0 66%;
 }
 
 .l10-header-top { 
@@ -414,10 +432,25 @@ a:hover{
 	justify-content: space-between; 
 	margin: 25px 0;
 }
-
-.l10-text-box p{
-	flex: 0 0 48%;
+.l10-text p,
+.l10-left p {
+	text-align: justify;
 }
+.l10-text-box p {
+	flex: 0 0 48%;
+	text-align: justify;
+}
+
+#anatomy-simple-chart {
+	height: 300px;
+	max-width: 400px;
+	margin: 50px 0;
+	display: flex;
+	align-items: flex-end;
+	overflow-y: hidden;
+	min-width: min-content;
+}
+  
 
 
 /* l12 style css  */
@@ -452,4 +485,12 @@ a:hover{
 
 .l14-content ul{
 	margin-bottom: 25px;
+}
+
+.l14-content ul li {
+	margin-bottom: 5px;
+}
+
+.l10-chart svg {
+	height: 333px;
 }
