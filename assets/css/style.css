@@ -17,7 +17,7 @@ time, mark, audio, span, video {
    outline: 0;
    font-size: 100%;
    background: transparent;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif; 
 }
 table {
    border-collapse: collapse;
@@ -365,6 +365,7 @@ a:hover{
   .l9-progress-bar {
 	display: flex;
 	justify-content: space-between;
+	overflow: hidden;
 }
 .progress-title H2 {
 	font-size: 40px;
@@ -379,6 +380,8 @@ a:hover{
 	align-items: center;
 	width: 100px;
 	height: 100px;
+	overflow:initial;
+	position: relative;
 	border-radius: 50%;
 	background: radial-gradient(closest-side, white 79%, transparent 80% 100%), conic-gradient(#8a8387 75%, #d2d2d2 0);
 }
@@ -426,7 +429,21 @@ a:hover{
 	content: "+20%";
 }
 
-  
+.progress-text{
+	position: relative; 
+}
+.progress-text::after {
+	content: "";
+	position: absolute;
+	background: rgb(73, 73, 73);
+	width: 2px;
+	height: 100%;
+	right: -192px;
+	top: 0;
+}
+.progress-text:last-child::after{
+	background: none;
+}
   
 
 
