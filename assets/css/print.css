@@ -244,6 +244,11 @@ a:hover{
 	margin-top: 30px;
 }
 
+.l7-content svg {
+	width: 100%;
+	height: 500px;
+}
+
 
 /* l8 style css  */
 
@@ -288,7 +293,10 @@ a:hover{
 	width: 100%;
 	height: 384px;
 }
-
+.l8-map svg {
+	width: 100%;  
+	height: 284px;
+}
 
 /* l10 style css  */
 
